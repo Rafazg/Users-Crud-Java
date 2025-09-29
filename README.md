@@ -25,3 +25,14 @@ crudjava/
     └── infrastructure  
         ├── entitys     # Entidades JPA (mapeamento das tabelas)
         └── repository  # Repositórios (interfaces para acesso ao banco)
+```
+
+## 📌 Funcionalidades
+- ➕ Criar usuário
+-  POST /usuario
+- 🔍 Buscar usuário por e-mail
+- ✏️ Atualizar usuário por ID
+- ❌ Deletar usuário por e-mail
+
+  
+
