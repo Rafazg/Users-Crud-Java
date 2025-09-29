@@ -33,5 +33,40 @@ crudjava/
 - ✏️ Atualizar usuário por ID
 - ❌ Deletar usuário por e-mail
 
-  
+## 📡 Endpoints da API
+### ➕ Criar Usuário
 
+POST /usuario
+
+```bash
+{
+  "nome": "Rafael",
+  "email": "rafael@email.com"
+}
+```
+
+## 🔍 Buscar Usuário por E-mail
+
+### GET /usuario?email=rafael@email.com
+```bash
+{
+  "id": 1,
+  "nome": "Rafael",
+  "email": "rafael@email.com"
+}
+```
+## ✏️ Atualizar Usuário por ID
+
+### PUT /usuario?id=1
+```bash
+{
+  "nome": "Rafael Atualizado",
+  "email": "novoemail@email.com"
+}
+```
+## ❌ Deletar Usuário por E-mail
+
+### DELETE /usuario?email=rafael@email.com
+```bash
+200 OK
+```
