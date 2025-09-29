@@ -29,7 +29,6 @@ crudjava/
 
 ## 📌 Funcionalidades
 - ➕ Criar usuário
--  POST /usuario
 - 🔍 Buscar usuário por e-mail
 - ✏️ Atualizar usuário por ID
 - ❌ Deletar usuário por e-mail
